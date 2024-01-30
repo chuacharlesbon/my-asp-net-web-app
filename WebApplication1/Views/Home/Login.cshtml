@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Login | Portal";
+}
+
+<div class="d-flex flex-column align-items-center justify-content-center text-center" style="height: 75vh;">
+    <h1>@ViewData["Title"]</h1>
+
+    <a class="bg-info rounded px-4 py-2 text-white my-4" asp-controller="Home" asp-action="LoginAdmin">
+        I am an Educator
+    </a>
+    <a class="bg-info rounded px-4 py-2 text-white my-4" asp-controller="Home" asp-action="LoginStudent">
+        I am a Student
+    </a>
+</div>

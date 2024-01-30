@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Login | Educator";
+}
+
+<div class="w-100 p-0 m-0">
+    <div class="row p-0 m-0 w-100 align-items-center justify-content-center">
+        <div class="col-12 col-lg-8 col-xl-9 p-0 align-items-center justify-content-center" style="background-image: url(../assets/images/keyboard-hand.jpg); background-size: cover; background-position: center; height: 100vh;">
+            <img alt="keyboard" class="d-none img-fluid w-100 mx-auto text-center object-fit-cover" style="height: 90vh;" src="/assets/images/421189967_1396218507700268_5510381909668969052_n.jpg" />
+            <div class="row p-0 m-0 w-100 h-100 align-items-center justify-content-center bg-white d-md-none" style="--bs-bg-opacity: .5;">
+                <div class="col-10">
+                    <input class="py-2 my-2 d-block w-100 rounded form-control" placeholder="Email" type="email" />
+                    <input class="py-2 my-2 d-block w-100 rounded form-control" placeholder="Password" type="password" />
+                    <button class="d-block w-100 bg-info rounded px-4 py-2 text-white my-4">
+                        LOGIN
+                    </button>
+                    <a class="fs-5 py-4 text-primary" asp-area="" asp-controller="Home" asp-action="ForgotPassword">Forgot Password</a>
+                </div>
+            </div>
+            <div class="row p-0 m-0 w-100 h-100 align-items-center justify-content-start d-none d-md-flex flex-row">
+                <div class="col-10 p-0 m-0 justify-content-center">
+                    <div class="px-4 py-5" style="background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);">
+                        <h1 class="px-5 py-2 text-dark">CMT Learning Institute</h1>
+                        <p class="px-5 py-2 text-dark">Empowering learners, shaping tomorrow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-md-flex flex-column col-10 col-md-8 col-lg-4 col-xl-3 p-5 align-items-center justify-content-center">
+            <input class="py-2 my-2 d-block w-100 rounded form-control" placeholder="Email" type="email" />
+            <input class="py-2 my-2 d-block w-100 rounded form-control" placeholder="Password" type="password" />
+            <button class="d-block w-100 bg-info rounded px-4 py-2 text-white my-4">
+                LOGIN
+            </button>
+            <a class="fs-6 py-4 text-primary text-decoration-none" asp-area="" asp-controller="Home" asp-action="ForgotPassword">Forgot Password</a>
+        </div>
+    </div>
+</div>
